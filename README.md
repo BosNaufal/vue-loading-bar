@@ -48,7 +48,7 @@ Full Example:
 
 ## Props
 
-##### `direction` (*) : The Direction of loading-bar component. Can be "right" or "left".
+##### `direction` : The Direction of loading-bar component. The default value is "right".
 
 <br/>
 
