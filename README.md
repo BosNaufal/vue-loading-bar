@@ -34,7 +34,7 @@ minimal:
 <loading-bar
 	class="someClass"
 	id="SomeId"
-	:progress.sync="progress">
+	progress="10%">
 </loading-bar>
 ```
 Full Example:
@@ -42,27 +42,27 @@ Full Example:
 <loading-bar
 	class="someClass"
 	id="someId"
-	:direction="direction ? 'left' : 'right'" :error.sync="boolean">
+	progress="10%"
+	direction="left"
+	error="true">
 </loading-bar>
 ```
 
 ## Props
 
+##### `progress` (*) : The Percentage of loading-bar component. String value with percent ( ex: 100% ).
+
+
 ##### `direction` : The Direction of loading-bar component. The default value is "right".
 
-<br/>
 
-##### `error` : Boolean value to force error loading bar.
+##### `error` : Boolean value to force error state of loading bar.
 
-<br/>
 
 ##### `class` : Component Class (optional)
-will generate an class for input element. this only for the input element in loading-bar.
 
-<br/>
 
 ##### `id` : Component Id (optional)
-will generate an Id for input element.
 
 <br/>
 
