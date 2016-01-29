@@ -1,0 +1,50 @@
+.loading-bar{
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+.loading-bar{
+	position: fixed;
+	top: 0;
+	background: #1AF184;
+	height: 3px;
+	opacity: 1;
+}
+.glow-bar{
+	top: 0;
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	box-shadow: -3px 0 15px 1px rgba(0, 255, 231, 0.4)
+}
+
+.to-right.loading-bar{
+	left: 0;
+}
+.to-right .glow-bar{
+	right: 0;
+}
+
+.to-left.loading-bar{
+	right: 0;
+}
+.to-left .glow-bar{
+	left: 0;
+}
+
+.full.loading-bar{
+	transition:all 0.1s ease;
+	-moz-transition:all 0.1s ease;
+	-webkit-transition:all 0.1s ease;
+	-o-transition:all 0.1s ease;
+	height: 0;
+	opacity: 0;
+}
+
+.error.loading-bar{
+	background: #F44336;
+}
+.error .glow-bar{
+	box-shadow: -3px 0 15px 1px rgba(244, 67, 54, 0.4);
+}
