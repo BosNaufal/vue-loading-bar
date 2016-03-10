@@ -34,7 +34,7 @@ minimal:
 <loading-bar
 	class="someClass"
 	id="SomeId"
-	progress="10%">
+	:progress=10>
 </loading-bar>
 ```
 Full Example:
@@ -42,7 +42,7 @@ Full Example:
 <loading-bar
 	class="someClass"
 	id="someId"
-	progress="10%"
+	:progress=10
 	direction="left"
 	error="true">
 </loading-bar>
@@ -50,7 +50,7 @@ Full Example:
 
 ## Props
 
-##### `progress` (*) : The Percentage of loading-bar component. String value with percent ( ex: 100% ).
+##### `progress` (*) : The Percentage of loading-bar component. Integer value ( ex: 100 ).
 
 
 ##### `direction` : The Direction of loading-bar component. The default value is "right".
