@@ -21,11 +21,19 @@ Or
 
 You can import [vue-loading-bar.vue](./vue-loading-bar.vue) to your vue component file like [this](./vueku.js) and process it with your preprocessor.
 
+Now
 
+You can install it via NPM
+```bash
+npm install vue-loading-bar
+```
+
+
+## Import Module
 ```javascript
-import loading-bar from ./vue-loading-bar.vue
+import loadingBar from ./vue-loading-bar.vue
 // Or
-var loading-bar = require('./vue-loading-bar.vue');
+var loadingBar = require('./vue-loading-bar.vue');
 ```
 
 ## Usage

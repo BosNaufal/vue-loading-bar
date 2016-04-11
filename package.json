@@ -1,34 +1,23 @@
 {
-  "name": "vue-autocomplete",
-  "version": "0.0.1",
-  "description": "Autocomplete Components for Vue.js",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "vue-loading-bar",
+  "version": "1.0.0",
+  "description": "Youtube Like Loading Bar Component for Vue.Js",
+  "main": "vue-loading-bar.vue",
   "keywords": [
-    "vue-js",
-    "autocomplete",
-    "remote-list",
-    "form",
-    "component"
+    "vuejs",
+    "loading",
+    "loading bar",
+    "component",
+    "progress"
   ],
-  "author": "Bos Naufal",
+  "author": "Bos Naufal <bosnaufalemail@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.4.0",
-    "babel-plugin-transform-runtime": "^6.4.3",
-    "babel-preset-es2015": "^6.3.13",
-    "browserify": "^13.0.0",
-    "gulp": "^3.9.0",
-    "gulp-livereload": "^3.8.1",
-    "vinyl-source-stream": "^1.1.0",
-    "vue-hot-reload-api": "^1.2.2",
-    "vueify": "^8.3.2",
-    "vueify-insert-css": "^1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BosNaufal/vue-loading-bar.git"
   },
-  "dependencies": {
-    "dev": "^0.1.3",
-    "vueify": "^8.3.2"
-  }
+  "bugs": {
+    "url": "https://github.com/BosNaufal/vue-loading-bar/issues"
+  },
+  "homepage": "https://github.com/BosNaufal/vue-loading-bar#readme"
 }
