@@ -31,7 +31,7 @@ npm install vue-loading-bar
 
 ## Import Module
 ```javascript
-import loadingBar from ./vue-loading-bar.vue
+import loadingBar from './vue-loading-bar.vue';
 // Or
 var loadingBar = require('./vue-loading-bar.vue');
 ```
