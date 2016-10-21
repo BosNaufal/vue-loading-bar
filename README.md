@@ -3,6 +3,8 @@ Loading Bar Component for [Vue.Js](http://vuejs.org)
 
 [DEMO](https://rawgit.com/BosNaufal/vue-loading-bar/master/index.html)
 
+[Need Vue 2 Version? Click Here...](https://github.com/BosNaufal/vue2-loading-bar)
+
 ## Intro
 Vue Loading Bar is a Youtube like loading bar component for Vue.Js.
 
